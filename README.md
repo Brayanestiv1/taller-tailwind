@@ -57,3 +57,4 @@
 - **XS/SM**: El formulario ocupa casi todo el ancho de la pantalla.
 - **LG**: El formulario se centra con suficiente espacio a los lados.
 - **FULL**: Similar a **LG**, pero con más espacio en el contenedor.
+git 
