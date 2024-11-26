@@ -27,3 +27,33 @@
 - **SM (pantallas medianas)**: Dos columnas.
 - **LG (pantallas grandes)**: Tres columnas.
 - **XL y FULL**: Cuatro columnas.
+
+
+## Ejercicio 2
+
+## Explicación del diseño:
+
+### Contenedor principal:
+- **`min-h-screen`**: Asegura que el formulario ocupe toda la altura de la pantalla.
+- **`flex items-center justify-center`**: Centra el formulario horizontal y verticalmente.
+- **`bg-green-100`**: Fondo de color verde claro.
+
+### Tarjeta del formulario:
+- **`bg-white`**: Fondo blanco.
+- **`p-6 rounded-lg shadow-lg`**: Añade padding, bordes redondeados y sombra.
+
+### Botón de Google:
+- **`flex items-center justify-center`**: Permite alinear el icono y el texto.
+- **`bg-green-200 hover:bg-green-300`**: Fondo verde claro con un efecto hover.
+
+### Inputs del formulario:
+- **`block w-full px-3 py-2 border`**: Estilo básico para los campos de texto.
+- **`focus:outline-none focus:ring-green-500`**: Resalta el campo activo con un borde verde.
+
+### Diseño responsivo:
+- **`w-full max-w-md`**: Asegura que el formulario sea responsivo, con un ancho máximo en pantallas grandes.
+
+### Resultado esperado en dispositivos:
+- **XS/SM**: El formulario ocupa casi todo el ancho de la pantalla.
+- **LG**: El formulario se centra con suficiente espacio a los lados.
+- **FULL**: Similar a **LG**, pero con más espacio en el contenedor.
