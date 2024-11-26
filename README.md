@@ -2,6 +2,8 @@
 
 ## Explicación:
 
+## Ejercicio 1
+
 ### Grid layout responsivo:
 - **`grid`**: Activa el sistema de grillas.
 - **`gap-4`**: Espacio entre las tarjetas.
